@@ -30,7 +30,7 @@ body {
 
 /* 为内容添加两边留白，并使其居中 */
 .container {
-    width: 70%; /* 设置内容宽度 */
+    width: 60%; /* 设置内容宽度 */
     max-width: 1200px; /* 限制最大宽度 */
     margin: 0 auto; /* 使页面内容居中 */
     background-color: #fff; /* 背景颜色为白色 */
@@ -40,16 +40,16 @@ body {
 
 /* header 样式 */
 header {
-    background: #f5f5f5; /* 背景设置为非常浅的灰色 */
-    color: #333; /* 标题字体颜色 */
+    background: #d3d3d3; /* 背景设置为浅灰色 */
+    /*color: #333; !* 标题字体颜色 *!*/
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
+    font-family: "Apple Chancery", cursive; /* 设置字体为 Apple Chancery，备用字体为 cursive */
     font-size: 3rem;
     margin-bottom: 10px;
-    color: #666; /* 标题颜色为灰色 */
 }
 
 /* 导航栏样式 */
@@ -96,13 +96,24 @@ footer {
 }
 
 a {
-    color: #35424a;
+    /*color: #35424a;*/
+    color: #0000FF; /* 链接为蓝色 */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
 }
+/* 设置诗的字体为 Snell Roundhand */
+.poem {
+    font-family: "Snell Roundhand", cursive;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 20px;
+    color: #333; /* 设置诗歌的文本颜色为深灰 */
+    text-align: left;
+}
+
 
 /*!* 额外为标题添加阴影以便在背景上更清晰显示 *!*/
 /*h1, h2, h3 {*/
