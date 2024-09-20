@@ -91,7 +91,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* 额外为标题添加阴影以便在背景上更清晰显示 */
-h1, h2, h3 {
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-}
+/*!* 额外为标题添加阴影以便在背景上更清晰显示 *!*/
+/*h1, h2, h3 {*/
+/*    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);*/
+/*}*/
