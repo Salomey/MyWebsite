@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4; /* 原有背景色，将其替换为背景图片 */
-    background-image: url('../images/blackhole.jpg'); /* 链接到黑洞图片 */
+    background-image: url('../images/sea.jpg'); /* 链接到黑洞图片 */
     background-size: cover; /* 使背景图片覆盖整个页面 */
     background-position: center; /* 背景图片居中显示 */
     background-attachment: fixed; /* 当页面滚动时，背景图片固定不动 */
