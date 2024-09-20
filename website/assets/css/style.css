@@ -40,7 +40,8 @@ body {
 
 /* header 样式 */
 header {
-    background: #d3d3d3; /* 背景设置为浅灰色 */
+    /*background: #d3d3d3; !* 背景设置为浅灰色 *!*/
+    background: #add8e6; /* 背景设置为浅蓝色 */
     /*color: #333; !* 标题字体颜色 *!*/
     padding: 20px 0;
     text-align: center;
