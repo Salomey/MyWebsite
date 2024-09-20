@@ -8,29 +8,38 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4; /* 原有背景色，将其替换为背景图片 */
-    background-image: url('../images/sunset.jpg'); /* 链接到黑洞图片 */
-    background-size: cover; /* 使背景图片覆盖整个页面 */
-    background-position: center; /* 背景图片居中显示 */
-    background-attachment: fixed; /* 当页面滚动时，背景图片固定不动 */
-    background-repeat: no-repeat; /* 防止图片重复 */
-    min-height: 100vh; /* 确保页面最小高度为视口高度 */
-    color: #fff; /* 改变文本颜色为白色 */
+    background-color: #f4f4f4; /* 修改背景为浅色背景 */
+    color: #000; /* 将字体颜色设置为黑色 */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-/* 原有的 header 样式 */
+/* 为内容添加两边留白，并使其居中 */
+.container {
+    width: 80%; /* 设置内容宽度 */
+    max-width: 1200px; /* 限制最大宽度 */
+    margin: 0 auto; /* 使页面内容居中 */
+    background-color: #fff; /* 背景颜色为白色 */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加轻微阴影 */
+}
+
+/* header 样式 */
 header {
-    background: #35424a;
-    color: white;
+    background: #d9e7c5; /* 背景设置为淡绿色 */
+    color: #333; /* 标题字体颜色 */
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
+    font-size: 3rem;
     margin-bottom: 10px;
+    color: #666; /* 标题颜色为灰色 */
 }
 
-/* 原有的导航样式，适当调整颜色 */
+/* 导航栏样式 */
 nav ul {
     list-style: none;
     padding: 0;
@@ -42,26 +51,27 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #8b4513; /* 链接为棕色 */
     text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.5); /* 添加半透明背景以便在背景图片上清晰显示 */
+    background-color: rgba(0, 0, 0, 0.1); /* 半透明背景 */
     padding: 10px;
     border-radius: 5px;
 }
 
 nav ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.3); /* 悬停时的高亮效果 */
+    background-color: rgba(255, 255, 255, 0.3); /* 悬停时亮色效果 */
 }
 
-/* 保留主内容和 footer 的样式 */
+/* 主内容样式 */
 main {
     padding: 20px;
-    background: rgba(255, 255, 255, 0.8); /* 调整主内容背景为半透明白色，使文字在黑洞背景上可见 */
+    background-color: #fff; /* 主内容背景保持白色 */
     margin: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* 页脚样式 */
 footer {
     text-align: center;
     padding: 10px;
